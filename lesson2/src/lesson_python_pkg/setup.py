@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'talker = lesson_python_pkg.publisher:main',
+            'listener = lesson_python_pkg.subscriber:main',
         ],
     },
 )
