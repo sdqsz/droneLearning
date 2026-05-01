@@ -1,0 +1,36 @@
+[0.477s] Invoking command in '/home/sdqsz/codes/lesson2/src/lesson_python_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/build/lesson_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lesson_python_pkg build --build-base /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build install --record /home/sdqsz/codes/lesson2/build/lesson_python_pkg/install.log --single-version-externally-managed install_data
+[0.660s] running egg_info
+[0.660s] creating ../../build/lesson_python_pkg/lesson_python_pkg.egg-info
+[0.671s] writing ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/dependency_links.txt
+[0.672s] writing requirements to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/requires.txt
+[0.672s] writing top-level names to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/top_level.txt
+[0.672s] writing manifest file '../../build/lesson_python_pkg/lesson_python_pkg.egg-info/SOURCES.txt'
+[0.693s] reading manifest file '../../build/lesson_python_pkg/lesson_python_pkg.egg-info/SOURCES.txt'
+[0.694s] adding license file 'LICENSE'
+[0.694s] writing manifest file '../../build/lesson_python_pkg/lesson_python_pkg.egg-info/SOURCES.txt'
+[0.694s] running build
+[0.694s] running build_py
+[0.694s] creating /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build
+[0.694s] creating /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib
+[0.694s] creating /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg
+[0.694s] copying lesson_python_pkg/__init__.py -> /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg
+[0.694s] copying lesson_python_pkg/publisher.py -> /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg
+[0.694s] running install
+[0.698s] running install_lib
+[0.709s] creating /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg
+[0.710s] copying /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg/__init__.py -> /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg
+[0.710s] copying /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg/publisher.py -> /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg
+[0.710s] byte-compiling /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg/__init__.py to __init__.cpython-312.pyc
+[0.710s] byte-compiling /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg/publisher.py to publisher.cpython-312.pyc
+[0.710s] running install_data
+[0.710s] creating /home/sdqsz/codes/lesson2/install/lesson_python_pkg/share/ament_index
+[0.710s] creating /home/sdqsz/codes/lesson2/install/lesson_python_pkg/share/ament_index/resource_index
+[0.710s] creating /home/sdqsz/codes/lesson2/install/lesson_python_pkg/share/ament_index/resource_index/packages
+[0.710s] copying resource/lesson_python_pkg -> /home/sdqsz/codes/lesson2/install/lesson_python_pkg/share/ament_index/resource_index/packages
+[0.710s] copying package.xml -> /home/sdqsz/codes/lesson2/install/lesson_python_pkg/share/lesson_python_pkg
+[0.710s] running install_egg_info
+[0.723s] Copying ../../build/lesson_python_pkg/lesson_python_pkg.egg-info to /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg-0.0.0-py3.12.egg-info
+[0.723s] running install_scripts
+[0.798s] writing list of installed files to '/home/sdqsz/codes/lesson2/build/lesson_python_pkg/install.log'
+[0.816s] Invoked command in '/home/sdqsz/codes/lesson2/src/lesson_python_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/build/lesson_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lesson_python_pkg build --build-base /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build install --record /home/sdqsz/codes/lesson2/build/lesson_python_pkg/install.log --single-version-externally-managed install_data

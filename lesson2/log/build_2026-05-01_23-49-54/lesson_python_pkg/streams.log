@@ -1,0 +1,29 @@
+[0.479s] Invoking command in '/home/sdqsz/codes/lesson2/src/lesson_python_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/build/lesson_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lesson_python_pkg build --build-base /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build install --record /home/sdqsz/codes/lesson2/build/lesson_python_pkg/install.log --single-version-externally-managed install_data
+[0.639s] running egg_info
+[0.651s] writing ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/PKG-INFO
+[0.651s] writing dependency_links to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/dependency_links.txt
+[0.651s] writing entry points to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/entry_points.txt
+[0.651s] writing requirements to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/requires.txt
+[0.651s] writing top-level names to ../../build/lesson_python_pkg/lesson_python_pkg.egg-info/top_level.txt
+[0.675s] reading manifest file '../../build/lesson_python_pkg/lesson_python_pkg.egg-info/SOURCES.txt'
+[0.675s] adding license file 'LICENSE'
+[0.675s] writing manifest file '../../build/lesson_python_pkg/lesson_python_pkg.egg-info/SOURCES.txt'
+[0.675s] running build
+[0.675s] running build_py
+[0.675s] copying lesson_python_pkg/publisher.py -> /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg
+[0.676s] copying lesson_python_pkg/subscriber.py -> /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg
+[0.676s] running install
+[0.680s] running install_lib
+[0.691s] copying /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg/publisher.py -> /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg
+[0.691s] copying /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build/lib/lesson_python_pkg/subscriber.py -> /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg
+[0.691s] byte-compiling /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg/publisher.py to publisher.cpython-312.pyc
+[0.692s] byte-compiling /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg/subscriber.py to subscriber.cpython-312.pyc
+[0.692s] running install_data
+[0.692s] running install_egg_info
+[0.704s] removing '/home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.704s] Copying ../../build/lesson_python_pkg/lesson_python_pkg.egg-info to /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages/lesson_python_pkg-0.0.0-py3.12.egg-info
+[0.704s] running install_scripts
+[0.779s] Installing listener script to /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/lesson_python_pkg
+[0.779s] Installing talker script to /home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/lesson_python_pkg
+[0.779s] writing list of installed files to '/home/sdqsz/codes/lesson2/build/lesson_python_pkg/install.log'
+[0.795s] Invoked command in '/home/sdqsz/codes/lesson2/src/lesson_python_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/build/lesson_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/install/lesson_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lesson_python_pkg build --build-base /home/sdqsz/codes/lesson2/build/lesson_python_pkg/build install --record /home/sdqsz/codes/lesson2/build/lesson_python_pkg/install.log --single-version-externally-managed install_data
