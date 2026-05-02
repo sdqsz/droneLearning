@@ -25,7 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'service = lesson_python_service.service_server:main',
-            'listener = lesson_python_service.service_client:main'
+            'client = lesson_python_service.service_client:main'
         ],
     },
 )

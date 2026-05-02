@@ -1,0 +1,23 @@
+[0.871s] Invoking command in '/home/sdqsz/codes/lesson2/src/lesson_python_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/build/lesson_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/install/lesson_python_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lesson_python_service build --build-base /home/sdqsz/codes/lesson2/build/lesson_python_service/build install --record /home/sdqsz/codes/lesson2/build/lesson_python_service/install.log --single-version-externally-managed install_data
+[1.046s] running egg_info
+[1.058s] writing ../../build/lesson_python_service/lesson_python_service.egg-info/PKG-INFO
+[1.058s] writing dependency_links to ../../build/lesson_python_service/lesson_python_service.egg-info/dependency_links.txt
+[1.058s] writing entry points to ../../build/lesson_python_service/lesson_python_service.egg-info/entry_points.txt
+[1.058s] writing requirements to ../../build/lesson_python_service/lesson_python_service.egg-info/requires.txt
+[1.058s] writing top-level names to ../../build/lesson_python_service/lesson_python_service.egg-info/top_level.txt
+[1.083s] reading manifest file '../../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+[1.083s] adding license file 'LICENSE'
+[1.083s] writing manifest file '../../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+[1.084s] running build
+[1.084s] running build_py
+[1.084s] running install
+[1.088s] running install_lib
+[1.100s] running install_data
+[1.101s] running install_egg_info
+[1.114s] removing '/home/sdqsz/codes/lesson2/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service-0.0.0-py3.12.egg-info' (and everything under it)
+[1.114s] Copying ../../build/lesson_python_service/lesson_python_service.egg-info to /home/sdqsz/codes/lesson2/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service-0.0.0-py3.12.egg-info
+[1.115s] running install_scripts
+[1.198s] Installing listener script to /home/sdqsz/codes/lesson2/install/lesson_python_service/lib/lesson_python_service
+[1.198s] Installing service script to /home/sdqsz/codes/lesson2/install/lesson_python_service/lib/lesson_python_service
+[1.198s] writing list of installed files to '/home/sdqsz/codes/lesson2/build/lesson_python_service/install.log'
+[1.221s] Invoked command in '/home/sdqsz/codes/lesson2/src/lesson_python_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/build/lesson_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/install/lesson_python_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lesson_python_service build --build-base /home/sdqsz/codes/lesson2/build/lesson_python_service/build install --record /home/sdqsz/codes/lesson2/build/lesson_python_service/install.log --single-version-externally-managed install_data

@@ -9,7 +9,7 @@ class ServicePublisher(Node):
         self.srv = self.create_service(AddTwoInts,'add_two_ints',self.add_two_ints_callback)
     def add_two_ints_callback(self,request,response):
         response.sum = request.a+request.b
-        self.get_logger.info(f'Incoming request: a:{request.a} b: {request.b}')
+        self.get_logger().info(f'Incoming request: a:{request.a} b: {request.b}')
         return response
 
 def main():

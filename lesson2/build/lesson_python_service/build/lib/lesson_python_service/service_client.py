@@ -8,7 +8,7 @@ class ServiceClientAsync(Node):
         super().__init__("minimal_client_async")
         self.cli = self.create_client(AddTwoInts,'add_two_ints')
         while not self.cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger.info('Сервис недоступен, ждем...')
+            self.get_logger().info('Сервис недоступен, ждем...')
         self.req = AddTwoInts.Request()
     
     def send_request (self,a,b):
