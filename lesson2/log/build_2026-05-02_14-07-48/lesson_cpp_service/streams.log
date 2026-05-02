@@ -1,0 +1,51 @@
+[0.023s] Invoking command in '/home/sdqsz/codes/lesson2/build/lesson_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sdqsz/codes/lesson2/src/lesson_cpp_service -DCMAKE_INSTALL_PREFIX=/home/sdqsz/codes/lesson2/install/lesson_cpp_service
+[0.238s] -- The C compiler identification is GNU 13.3.0
+[0.238s] -- The CXX compiler identification is GNU 13.3.0
+[0.239s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.370s] -- Detecting C compile features
+[0.371s] -- Detecting C compile features - done
+[0.380s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.502s] -- Detecting CXX compile features
+[0.502s] -- Detecting CXX compile features - done
+[0.517s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.714s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.881s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.950s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.974s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.010s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.159s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.276s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.296s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.324s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.436s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.530s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.673s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.673s] -- Configured cppcheck include dirs: 
+[1.673s] -- Configured cppcheck exclude dirs and/or files: 
+[1.675s] -- Added test 'lint_cmake' to check CMake code style
+[1.677s] -- Added test 'uncrustify' to check C / C++ code style
+[1.677s] -- Configured uncrustify additional arguments: 
+[1.678s] -- Added test 'xmllint' to check XML markup files
+[1.681s] -- Configuring done (1.6s)
+[1.683s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[1.683s]   Cannot find source file:
+[1.683s] 
+[1.684s]     src/add_two_ints_server.cpp
+[1.684s] 
+[1.684s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.684s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.684s]   .f95 .f03 .hip .ispc
+[1.684s] 
+[1.684s] [0m
+[1.686s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[1.686s]   No SOURCES given to target: server
+[1.686s] 
+[1.686s] [0m
+[1.686s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.697s] Invoked command in '/home/sdqsz/codes/lesson2/build/lesson_cpp_service' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sdqsz/codes/lesson2/src/lesson_cpp_service -DCMAKE_INSTALL_PREFIX=/home/sdqsz/codes/lesson2/install/lesson_cpp_service
