@@ -1,3 +1,0 @@
-[console_scripts]
-client = lesson_python_service.service_client:main
-service = lesson_python_service.service_server:main

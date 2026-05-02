@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
             'service = lesson_python_service.service_server:main',
             'client = lesson_python_service.service_client:main'
+            'fib_action_server = lesson_python_service.fibonacci_action_server:main'
+            'fib_action_client = lesson_python_service.fibonacci_action_client:main'
         ],
     },
 )

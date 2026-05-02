@@ -1,0 +1,349 @@
+[0.026s] Invoking command in '/home/sdqsz/codes/lesson2/build/lesson_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sdqsz/codes/lesson2/src/lesson_interfaces -DCMAKE_INSTALL_PREFIX=/home/sdqsz/codes/lesson2/install/lesson_interfaces
+[0.109s] -- The C compiler identification is GNU 13.3.0
+[0.167s] -- The CXX compiler identification is GNU 13.3.0
+[0.186s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.292s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.304s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.416s] -- Detecting CXX compile features
+[0.417s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.607s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.722s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.475s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.328s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.436s] -- Found PythonExtra: /usr/bin/python3  
+[2.783s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.843s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.847s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.867s] -- Added test 'lint_cmake' to check CMake code style
+[2.868s] -- Added test 'xmllint' to check XML markup files
+[2.871s] -- Configuring done (2.8s)
+[2.900s] -- Generating done (0.0s)
+[2.909s] -- Build files have been written to: /home/sdqsz/codes/lesson2/build/lesson_interfaces
+[2.919s] Invoked command in '/home/sdqsz/codes/lesson2/build/lesson_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sdqsz/codes/lesson2/src/lesson_interfaces -DCMAKE_INSTALL_PREFIX=/home/sdqsz/codes/lesson2/install/lesson_interfaces
+[2.920s] Invoking command in '/home/sdqsz/codes/lesson2/build/lesson_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sdqsz/codes/lesson2/build/lesson_interfaces -- -j16 -l16
+[2.970s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.970s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.982s] [  3%] Built target ament_cmake_python_copy_lesson_interfaces
+[3.166s] [  3%] Built target lesson_interfaces__rosidl_generator_type_description
+[3.178s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.184s] running egg_info
+[3.185s] creating lesson_interfaces.egg-info
+[3.188s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.207s] writing lesson_interfaces.egg-info/PKG-INFO
+[3.207s] writing dependency_links to lesson_interfaces.egg-info/dependency_links.txt
+[3.207s] writing top-level names to lesson_interfaces.egg-info/top_level.txt
+[3.207s] writing manifest file 'lesson_interfaces.egg-info/SOURCES.txt'
+[3.216s] [  7%] Built target lesson_interfaces__rs
+[3.267s] reading manifest file 'lesson_interfaces.egg-info/SOURCES.txt'
+[3.267s] writing manifest file 'lesson_interfaces.egg-info/SOURCES.txt'
+[3.292s] [  7%] Built target ament_cmake_python_build_lesson_interfaces_egg
+[3.604s] [  7%] Built target lesson_interfaces__cpp
+[3.655s] [ 12%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/action/detail/fibonacci__functions.c.o[0m
+[3.656s] [ 12%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/action/detail/fibonacci__description.c.o[0m
+[3.656s] [ 12%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.656s] [ 14%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[3.658s] [ 18%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/msg/detail/num__description.c.o[0m
+[3.658s] [ 18%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/msg/detail/num__functions.c.o[0m
+[3.658s] [ 20%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/msg/detail/num__type_support.c.o[0m
+[3.658s] [ 21%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/srv/detail/add_three_ints__description.c.o[0m
+[3.658s] [ 23%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lesson_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[3.786s] [ 25%] [32m[1mLinking C shared library liblesson_interfaces__rosidl_generator_c.so[0m
+[3.822s] [ 25%] Built target lesson_interfaces__rosidl_generator_c
+[3.834s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.834s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.838s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.839s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.840s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.840s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.152s] [ 38%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lesson_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.153s] [ 40%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lesson_interfaces/action/fibonacci__type_support.cpp.o[0m
+[4.153s] [ 41%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lesson_interfaces/msg/num__type_support.cpp.o[0m
+[4.217s] [ 43%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lesson_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[4.220s] [ 47%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lesson_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[4.220s] [ 47%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lesson_interfaces/msg/detail/num__type_support.cpp.o[0m
+[4.223s] [ 49%] [32m[1mLinking CXX shared library liblesson_interfaces__rosidl_typesupport_c.so[0m
+[4.228s] [ 50%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lesson_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[4.228s] [ 52%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lesson_interfaces/msg/detail/num__type_support.c.o[0m
+[4.229s] [ 54%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lesson_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[4.270s] [ 54%] Built target lesson_interfaces__rosidl_typesupport_c
+[4.303s] [ 56%] [32m[1mLinking C shared library liblesson_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.325s] [ 58%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lesson_interfaces/msg/num__type_support.cpp.o[0m
+[4.325s] [ 60%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lesson_interfaces/action/fibonacci__type_support.cpp.o[0m
+[4.330s] [ 61%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lesson_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.347s] [ 61%] Built target lesson_interfaces__rosidl_typesupport_introspection_c
+[4.414s] [ 63%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lesson_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[4.417s] [ 65%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lesson_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[4.419s] [ 67%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lesson_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.679s] [ 72%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lesson_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[4.679s] [ 72%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lesson_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[4.679s] [ 72%] [32mBuilding CXX object CMakeFiles/lesson_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lesson_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[5.013s] [ 74%] [32m[1mLinking CXX shared library liblesson_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.089s] [ 76%] [32m[1mLinking CXX shared library liblesson_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.108s] [ 76%] Built target lesson_interfaces__rosidl_typesupport_introspection_cpp
+[5.148s] [ 76%] Built target lesson_interfaces__rosidl_typesupport_fastrtps_c
+[5.268s] [ 78%] [32m[1mLinking CXX shared library liblesson_interfaces__rosidl_typesupport_cpp.so[0m
+[5.339s] [ 78%] Built target lesson_interfaces__rosidl_typesupport_cpp
+[5.594s] [ 80%] [32m[1mLinking CXX shared library liblesson_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.662s] [ 80%] Built target lesson_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.680s] [ 80%] Built target lesson_interfaces
+[5.699s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.215s] [ 81%] Built target lesson_interfaces__py
+[6.241s] [ 85%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lesson_interfaces/action/_fibonacci_s.c.o[0m
+[6.241s] [ 85%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lesson_interfaces/srv/_add_three_ints_s.c.o[0m
+[6.243s] [ 87%] [32mBuilding C object CMakeFiles/lesson_interfaces__rosidl_generator_py.dir/rosidl_generator_py/lesson_interfaces/msg/_num_s.c.o[0m
+[6.412s] [ 89%] [32m[1mLinking C shared library liblesson_interfaces__rosidl_generator_py.so[0m
+[6.456s] [ 89%] Built target lesson_interfaces__rosidl_generator_py
+[6.479s] [ 94%] [32mBuilding C object CMakeFiles/lesson_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.480s] [ 94%] [32mBuilding C object CMakeFiles/lesson_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.480s] [ 94%] [32mBuilding C object CMakeFiles/lesson_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.596s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.597s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.599s] [100%] [32m[1mLinking C shared module rosidl_generator_py/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_c.so[0m
+[6.630s] [100%] Built target lesson_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.631s] [100%] Built target lesson_interfaces_s__rosidl_typesupport_introspection_c
+[6.633s] [100%] Built target lesson_interfaces_s__rosidl_typesupport_c
+[6.645s] Invoked command in '/home/sdqsz/codes/lesson2/build/lesson_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sdqsz/codes/lesson2/build/lesson_interfaces -- -j16 -l16
+[6.647s] Invoking command in '/home/sdqsz/codes/lesson2/build/lesson_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sdqsz/codes/lesson2/build/lesson_interfaces
+[6.656s] -- Install configuration: ""
+[6.656s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/ament_index/resource_index/rosidl_interfaces/lesson_interfaces
+[6.656s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/msg/Num.json
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/srv/AddThreeInts.json
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/action/Fibonacci.json
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/num.h
+[6.657s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__type_support.c
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__struct.h
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__functions.c
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__functions.h
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__type_support.h
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__description.c
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv
+[6.658s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/add_three_ints.h
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__type_support.c
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__struct.h
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__description.c
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__functions.h
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__type_support.h
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__functions.c
+[6.659s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/fibonacci.h
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__functions.h
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__struct.h
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__type_support.c
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__type_support.h
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__functions.c
+[6.660s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__description.c
+[6.661s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/library_path.sh
+[6.661s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/library_path.dsv
+[6.661s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_generator_c.so
+[6.661s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_generator_c.so" to ""
+[6.661s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces
+[6.661s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg
+[6.661s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail
+[6.661s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[6.662s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.662s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv
+[6.662s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail
+[6.662s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[6.662s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action
+[6.662s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail
+[6.662s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[6.662s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.663s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.663s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces
+[6.663s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg
+[6.663s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.663s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail
+[6.663s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__type_support.c
+[6.663s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[6.663s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv
+[6.664s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail
+[6.664s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__type_support.c
+[6.664s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[6.664s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action
+[6.664s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail
+[6.664s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[6.664s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__type_support.c
+[6.665s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_introspection_c.so
+[6.665s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.665s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_c.so
+[6.665s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_c.so" to ""
+[6.665s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces
+[6.665s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg
+[6.665s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.665s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail
+[6.665s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__builder.hpp
+[6.666s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__type_support.hpp
+[6.666s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__struct.hpp
+[6.666s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__traits.hpp
+[6.666s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/num.hpp
+[6.666s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv
+[6.666s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/add_three_ints.hpp
+[6.667s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail
+[6.667s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__type_support.hpp
+[6.667s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__traits.hpp
+[6.667s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__struct.hpp
+[6.667s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__builder.hpp
+[6.667s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action
+[6.667s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/fibonacci.hpp
+[6.668s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail
+[6.668s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__struct.hpp
+[6.668s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__type_support.hpp
+[6.668s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__traits.hpp
+[6.668s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__builder.hpp
+[6.668s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces
+[6.668s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg
+[6.668s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail
+[6.669s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/dds_fastrtps
+[6.669s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[6.669s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.669s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv
+[6.669s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail
+[6.669s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/dds_fastrtps
+[6.669s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.669s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/dds_fastrtps
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.670s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/msg/detail/num__type_support.cpp
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__type_support.cpp
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action
+[6.670s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__type_support.cpp
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/include/lesson_interfaces/lesson_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.670s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.670s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_cpp.so
+[6.670s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/pythonpath.sh
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/pythonpath.dsv
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces-0.0.0-py3.12.egg-info
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg/__init__.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg/_num.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg/_num_s.c
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/__init__.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv/__init__.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv/_add_three_ints_s.c
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv/_add_three_ints.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_c.so
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action/__init__.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action/_fibonacci_s.c
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action/_fibonacci.py
+[6.671s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.672s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_c.c
+[6.672s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.707s] Listing '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/__init__.py'...
+[6.707s] Listing '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action/__init__.py'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/action/_fibonacci.py'...
+[6.707s] Listing '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg/__init__.py'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/msg/_num.py'...
+[6.707s] Listing '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv/__init__.py'...
+[6.707s] Compiling '/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/srv/_add_three_ints.py'...
+[6.710s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.711s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.711s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.711s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[6.712s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_c.so
+[6.712s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/python3.12/site-packages/lesson_interfaces/lesson_interfaces_s__rosidl_typesupport_c.so" to ""
+[6.712s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_generator_py.so
+[6.713s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/install/lesson_interfaces/lib/liblesson_interfaces__rosidl_generator_py.so" to ""
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/ament_index/resource_index/rust_packages/lesson_interfaces
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/Cargo.toml
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/build.rs
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/action.rs
+[6.713s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/msg.rs
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/msg
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/msg/rmw.rs
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/lib.rs
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/srv.rs
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/srv
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/srv/rmw.rs
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/action
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/rust/src/action/rmw.rs
+[6.714s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/msg/Num.idl
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/srv/AddThreeInts.idl
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/action/Fibonacci.idl
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/msg/Num.msg
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/srv/AddThreeInts.srv
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/action/Fibonacci.action
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/ament_index/resource_index/package_run_dependencies/lesson_interfaces
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/ament_index/resource_index/parent_prefix_path/lesson_interfaces
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/ament_prefix_path.sh
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/ament_prefix_path.dsv
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/path.sh
+[6.715s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/environment/path.dsv
+[6.716s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/local_setup.bash
+[6.716s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/local_setup.sh
+[6.716s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/local_setup.zsh
+[6.717s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/local_setup.dsv
+[6.717s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/package.dsv
+[6.717s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/ament_index/resource_index/packages/lesson_interfaces
+[6.717s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_generator_cExport.cmake
+[6.718s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.718s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.718s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.718s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.718s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.718s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_cExport.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_generator_cppExport.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.719s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_cppExport.cmake
+[6.720s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.720s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_generator_pyExport.cmake
+[6.720s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/export_lesson_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.720s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.720s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.720s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.721s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.721s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.721s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.721s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.721s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfacesConfig.cmake
+[6.721s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/cmake/lesson_interfacesConfig-version.cmake
+[6.722s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_interfaces/share/lesson_interfaces/package.xml
+[6.722s] Invoked command in '/home/sdqsz/codes/lesson2/build/lesson_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sdqsz/codes/lesson2/build/lesson_interfaces

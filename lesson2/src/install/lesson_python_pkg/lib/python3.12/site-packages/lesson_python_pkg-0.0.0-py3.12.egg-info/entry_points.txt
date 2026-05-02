@@ -1,3 +1,0 @@
-[console_scripts]
-listener = lesson_python_pkg.subscriber:main
-talker = lesson_python_pkg.publisher:main

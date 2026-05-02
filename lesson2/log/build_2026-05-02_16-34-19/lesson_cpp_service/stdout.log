@@ -1,0 +1,20 @@
+[100%] Built target server
+[100%] Built target client
+-- Install configuration: ""
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/lib/lesson_cpp_service/server
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/lib/lesson_cpp_service/client
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/ament_index/resource_index/package_run_dependencies/lesson_cpp_service
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/ament_index/resource_index/parent_prefix_path/lesson_cpp_service
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/path.sh
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/path.dsv
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.bash
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.sh
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.zsh
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.dsv
+-- Installing: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/package.dsv
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/ament_index/resource_index/packages/lesson_cpp_service
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/cmake/lesson_cpp_serviceConfig.cmake
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/cmake/lesson_cpp_serviceConfig-version.cmake
+-- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/package.xml

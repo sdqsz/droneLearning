@@ -1,0 +1,24 @@
+[0.028s] Invoking command in '/home/sdqsz/codes/lesson2/build/lesson_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sdqsz/codes/lesson2/build/lesson_cpp_service -- -j16 -l16
+[0.130s] [100%] Built target server
+[0.130s] [100%] Built target client
+[0.304s] Invoked command in '/home/sdqsz/codes/lesson2/build/lesson_cpp_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sdqsz/codes/lesson2/build/lesson_cpp_service -- -j16 -l16
+[0.306s] Invoking command in '/home/sdqsz/codes/lesson2/build/lesson_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sdqsz/codes/lesson2/build/lesson_cpp_service
+[0.317s] -- Install configuration: ""
+[0.317s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/lib/lesson_cpp_service/server
+[0.318s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/lib/lesson_cpp_service/client
+[0.318s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/ament_index/resource_index/package_run_dependencies/lesson_cpp_service
+[0.318s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/ament_index/resource_index/parent_prefix_path/lesson_cpp_service
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/ament_prefix_path.sh
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/ament_prefix_path.dsv
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/path.sh
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/environment/path.dsv
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.bash
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.sh
+[0.319s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.zsh
+[0.320s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.dsv
+[0.320s] -- Installing: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/package.dsv
+[0.320s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/ament_index/resource_index/packages/lesson_cpp_service
+[0.320s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/cmake/lesson_cpp_serviceConfig.cmake
+[0.320s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/cmake/lesson_cpp_serviceConfig-version.cmake
+[0.320s] -- Up-to-date: /home/sdqsz/codes/lesson2/install/lesson_cpp_service/share/lesson_cpp_service/package.xml
+[0.333s] Invoked command in '/home/sdqsz/codes/lesson2/build/lesson_cpp_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/src/install/lesson_python_service:/home/sdqsz/codes/lesson2/src/install/lesson_python_pkg:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sdqsz/codes/lesson2/build/lesson_cpp_service
