@@ -1,0 +1,7 @@
+{
+  "package_name": "lesson_interfaces",
+  "non_idl_tuples": [
+    "/home/sdqsz/codes/lesson2/src/lesson_interfaces:msg/Num.msg",
+    "/home/sdqsz/codes/lesson2/src/lesson_interfaces:srv/AddThreeInts.srv"
+  ]
+}

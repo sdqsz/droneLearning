@@ -1,0 +1,17 @@
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/lib/lesson_cpp_pkg/talker
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/lib/lesson_cpp_pkg/listener
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/lesson_cpp_pkg
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/lesson_cpp_pkg
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/ament_prefix_path.sh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/ament_prefix_path.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/path.sh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/path.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.bash
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.sh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.zsh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/package.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/ament_index/resource_index/packages/lesson_cpp_pkg
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/cmake/lesson_cpp_pkgConfig.cmake
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/cmake/lesson_cpp_pkgConfig-version.cmake
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/package.xml

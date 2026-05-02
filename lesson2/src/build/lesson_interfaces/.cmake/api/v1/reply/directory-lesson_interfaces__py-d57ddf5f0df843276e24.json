@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lesson_interfaces__py",
+		"source" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__py"
+	}
+}

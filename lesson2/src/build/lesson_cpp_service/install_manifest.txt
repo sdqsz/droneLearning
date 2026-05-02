@@ -1,0 +1,17 @@
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/lib/lesson_cpp_service/server
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/lib/lesson_cpp_service/client
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/ament_index/resource_index/package_run_dependencies/lesson_cpp_service
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/ament_index/resource_index/parent_prefix_path/lesson_cpp_service
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/environment/ament_prefix_path.sh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/environment/ament_prefix_path.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/environment/path.sh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/environment/path.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.bash
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.sh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.zsh
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/local_setup.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/package.dsv
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/ament_index/resource_index/packages/lesson_cpp_service
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/cmake/lesson_cpp_serviceConfig.cmake
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/cmake/lesson_cpp_serviceConfig-version.cmake
+/home/sdqsz/codes/lesson2/src/install/lesson_cpp_service/share/lesson_cpp_service/package.xml

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "lesson_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "lesson_interfaces__py::@77852477492be6134316",
+	"name" : "lesson_interfaces__py",
+	"paths" : 
+	{
+		"build" : "lesson_interfaces__py",
+		"source" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__py/CMakeFiles/lesson_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__py/CMakeFiles/lesson_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/rosidl_generator_py/lesson_interfaces/_lesson_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

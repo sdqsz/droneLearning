@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "lesson_interfaces/msg/Num",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "lesson_interfaces/msg/Num",
+      "hash_string": "RIHS01_f8f5f6e288b2cffc62f4bed6b5e455f8878a5b31bddc706ac8a9d6a42ad4b005"
+    }
+  ]
+}

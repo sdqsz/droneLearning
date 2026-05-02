@@ -1,0 +1,42 @@
+[2.881s] Invoking command in '/home/sdqsz/codes/lesson2/src/lesson_python_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/src/build/lesson_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lesson_python_service build --build-base /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build install --record /home/sdqsz/codes/lesson2/src/build/lesson_python_service/install.log --single-version-externally-managed install_data
+[3.496s] running egg_info
+[3.497s] creating ../build/lesson_python_service/lesson_python_service.egg-info
+[3.539s] writing ../build/lesson_python_service/lesson_python_service.egg-info/PKG-INFO
+[3.540s] writing dependency_links to ../build/lesson_python_service/lesson_python_service.egg-info/dependency_links.txt
+[3.541s] writing entry points to ../build/lesson_python_service/lesson_python_service.egg-info/entry_points.txt
+[3.542s] writing requirements to ../build/lesson_python_service/lesson_python_service.egg-info/requires.txt
+[3.542s] writing top-level names to ../build/lesson_python_service/lesson_python_service.egg-info/top_level.txt
+[3.542s] writing manifest file '../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+[3.660s] reading manifest file '../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+[3.660s] adding license file 'LICENSE'
+[3.661s] writing manifest file '../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+[3.662s] running build
+[3.662s] running build_py
+[3.662s] creating /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build
+[3.666s] creating /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib
+[3.666s] creating /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+[3.667s] copying lesson_python_service/__init__.py -> /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+[3.667s] copying lesson_python_service/service_client.py -> /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+[3.667s] copying lesson_python_service/service_server.py -> /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+[3.667s] running install
+[3.688s] running install_lib
+[3.756s] creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+[3.758s] copying /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service/__init__.py -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+[3.762s] copying /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service/service_client.py -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+[3.763s] copying /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service/service_server.py -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+[3.764s] byte-compiling /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service/__init__.py to __init__.cpython-312.pyc
+[3.765s] byte-compiling /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service/service_client.py to service_client.cpython-312.pyc
+[3.767s] byte-compiling /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service/service_server.py to service_server.cpython-312.pyc
+[3.769s] running install_data
+[3.771s] creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index
+[3.771s] creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index/resource_index
+[3.771s] creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index/resource_index/packages
+[3.771s] copying resource/lesson_python_service -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index/resource_index/packages
+[3.771s] copying package.xml -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/lesson_python_service
+[3.771s] running install_egg_info
+[3.839s] Copying ../build/lesson_python_service/lesson_python_service.egg-info to /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service-0.0.0-py3.12.egg-info
+[3.841s] running install_scripts
+[4.296s] Installing client script to /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/lesson_python_service
+[4.296s] Installing service script to /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/lesson_python_service
+[4.297s] writing list of installed files to '/home/sdqsz/codes/lesson2/src/build/lesson_python_service/install.log'
+[4.381s] Invoked command in '/home/sdqsz/codes/lesson2/src/lesson_python_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sdqsz/codes/lesson2/src/build/lesson_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lesson_python_service build --build-base /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build install --record /home/sdqsz/codes/lesson2/src/build/lesson_python_service/install.log --single-version-externally-managed install_data

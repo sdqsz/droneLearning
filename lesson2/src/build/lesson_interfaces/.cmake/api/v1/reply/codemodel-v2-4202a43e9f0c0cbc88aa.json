@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b467bf052b73d0521a8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "lesson_interfaces__py",
+					"jsonFile" : "directory-lesson_interfaces__py-d57ddf5f0df843276e24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lesson_interfaces__rs",
+					"jsonFile" : "directory-lesson_interfaces__rs-fc73c565cab514ae8181.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces/lesson_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "lesson_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lesson_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lesson_interfaces_egg-c2b459026024969ba8cc.json",
+					"name" : "ament_cmake_python_build_lesson_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lesson_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lesson_interfaces-4c1e677c567dd0c74607.json",
+					"name" : "ament_cmake_python_copy_lesson_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces-b1ef22883b0deff68ceb.json",
+					"name" : "lesson_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__cpp-18b2b73aaae37de6df1f.json",
+					"name" : "lesson_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lesson_interfaces__py::@77852477492be6134316",
+					"jsonFile" : "target-lesson_interfaces__py-77356598ac5d0f0f7a46.json",
+					"name" : "lesson_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_generator_c-e887aa7f01adec6d6176.json",
+					"name" : "lesson_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_generator_py-54b774d2ea445dc51876.json",
+					"name" : "lesson_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_generator_type_description-479443de5d9256e49d47.json",
+					"name" : "lesson_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_typesupport_c-1ee0c55b4b588d3f4830.json",
+					"name" : "lesson_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_typesupport_cpp-6e28b28cb6114f4c5a95.json",
+					"name" : "lesson_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_typesupport_fastrtps_c-723f2c61ce48b183b9f2.json",
+					"name" : "lesson_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_typesupport_fastrtps_cpp-ce3549e6113c139dd396.json",
+					"name" : "lesson_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_typesupport_introspection_c-47364ea37206b3776458.json",
+					"name" : "lesson_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces__rosidl_typesupport_introspection_cpp-c456bb39ae844ca6dde9.json",
+					"name" : "lesson_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lesson_interfaces__rs::@05beb50b14fa9cfba75e",
+					"jsonFile" : "target-lesson_interfaces__rs-3f3357b21be590550879.json",
+					"name" : "lesson_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces_s__rosidl_typesupport_c-b795445c8af17138e5c1.json",
+					"name" : "lesson_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces_s__rosidl_typesupport_fastrtps_c-99c4786f038f60e9de15.json",
+					"name" : "lesson_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces_s__rosidl_typesupport_introspection_c-d2f4773e028a6a71008c.json",
+					"name" : "lesson_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lesson_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lesson_interfaces_uninstall-bed2aaa4731feb57e4ed.json",
+					"name" : "lesson_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ad484384cefc52e98280.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sdqsz/codes/lesson2/src/build/lesson_interfaces",
+		"source" : "/home/sdqsz/codes/lesson2/src/lesson_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,68 @@
+[0.065s] Invoking command in '/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sdqsz/codes/lesson2/src/lesson_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg
+[0.875s] -- The C compiler identification is GNU 13.3.0
+[0.876s] -- The CXX compiler identification is GNU 13.3.0
+[0.877s] -- Detecting C compiler ABI info
+[0.878s] -- Detecting C compiler ABI info - done
+[0.878s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.878s] -- Detecting C compile features
+[0.878s] -- Detecting C compile features - done
+[0.878s] -- Detecting CXX compiler ABI info
+[0.906s] -- Detecting CXX compiler ABI info - done
+[0.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.934s] -- Detecting CXX compile features
+[0.937s] -- Detecting CXX compile features - done
+[0.948s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.580s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.746s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.779s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.872s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.140s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.150s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.367s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.441s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.730s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.780s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.063s] -- Configured cppcheck include dirs: 
+[3.063s] -- Configured cppcheck exclude dirs and/or files: 
+[3.066s] -- Added test 'lint_cmake' to check CMake code style
+[3.069s] -- Added test 'uncrustify' to check C / C++ code style
+[3.069s] -- Configured uncrustify additional arguments: 
+[3.071s] -- Added test 'xmllint' to check XML markup files
+[3.079s] -- Configuring done (3.0s)
+[3.109s] -- Generating done (0.0s)
+[3.129s] -- Build files have been written to: /home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg
+[3.153s] Invoked command in '/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sdqsz/codes/lesson2/src/lesson_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg
+[3.156s] Invoking command in '/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg -- -j16 -l16
+[3.272s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[3.275s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[14.716s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[15.120s] [ 75%] Built target talker
+[18.417s] [100%] [32m[1mLinking CXX executable listener[0m
+[18.749s] [100%] Built target listener
+[18.766s] Invoked command in '/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg -- -j16 -l16
+[18.768s] Invoking command in '/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg
+[18.778s] -- Install configuration: ""
+[18.778s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/lib/lesson_cpp_pkg/talker
+[18.780s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/lib/lesson_cpp_pkg/talker" to ""
+[18.780s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/lib/lesson_cpp_pkg/listener
+[18.786s] -- Set non-toolchain portion of runtime path of "/home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/lib/lesson_cpp_pkg/listener" to ""
+[18.786s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/lesson_cpp_pkg
+[18.786s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/lesson_cpp_pkg
+[18.787s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/ament_prefix_path.sh
+[18.787s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/ament_prefix_path.dsv
+[18.787s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/path.sh
+[18.787s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/environment/path.dsv
+[18.788s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.bash
+[18.788s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.sh
+[18.788s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.zsh
+[18.789s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/local_setup.dsv
+[18.789s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/package.dsv
+[18.789s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/ament_index/resource_index/packages/lesson_cpp_pkg
+[18.789s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/cmake/lesson_cpp_pkgConfig.cmake
+[18.789s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/cmake/lesson_cpp_pkgConfig-version.cmake
+[18.790s] -- Installing: /home/sdqsz/codes/lesson2/src/install/lesson_cpp_pkg/share/lesson_cpp_pkg/package.xml
+[18.793s] Invoked command in '/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdqsz/codes/lesson2/install/lesson_python_service:/home/sdqsz/codes/lesson2/install/lesson_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg

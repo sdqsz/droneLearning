@@ -1,0 +1,40 @@
+running egg_info
+creating ../build/lesson_python_service/lesson_python_service.egg-info
+writing ../build/lesson_python_service/lesson_python_service.egg-info/PKG-INFO
+writing dependency_links to ../build/lesson_python_service/lesson_python_service.egg-info/dependency_links.txt
+writing entry points to ../build/lesson_python_service/lesson_python_service.egg-info/entry_points.txt
+writing requirements to ../build/lesson_python_service/lesson_python_service.egg-info/requires.txt
+writing top-level names to ../build/lesson_python_service/lesson_python_service.egg-info/top_level.txt
+writing manifest file '../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+reading manifest file '../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/lesson_python_service/lesson_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build
+creating /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib
+creating /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+copying lesson_python_service/__init__.py -> /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+copying lesson_python_service/service_client.py -> /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+copying lesson_python_service/service_server.py -> /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service
+running install
+running install_lib
+creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+copying /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service/__init__.py -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+copying /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service/service_client.py -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+copying /home/sdqsz/codes/lesson2/src/build/lesson_python_service/build/lib/lesson_python_service/service_server.py -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service
+byte-compiling /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service/service_client.py to service_client.cpython-312.pyc
+byte-compiling /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service/service_server.py to service_server.cpython-312.pyc
+running install_data
+creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index
+creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index/resource_index
+creating /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index/resource_index/packages
+copying resource/lesson_python_service -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/sdqsz/codes/lesson2/src/install/lesson_python_service/share/lesson_python_service
+running install_egg_info
+Copying ../build/lesson_python_service/lesson_python_service.egg-info to /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/python3.12/site-packages/lesson_python_service-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/lesson_python_service
+Installing service script to /home/sdqsz/codes/lesson2/src/install/lesson_python_service/lib/lesson_python_service
+writing list of installed files to '/home/sdqsz/codes/lesson2/src/build/lesson_python_service/install.log'

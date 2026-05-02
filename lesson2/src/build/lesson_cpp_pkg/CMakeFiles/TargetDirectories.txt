@@ -1,0 +1,11 @@
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/uninstall.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/lesson_cpp_pkg_uninstall.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/talker.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/listener.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/test.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/install.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/install/local.dir
+/home/sdqsz/codes/lesson2/src/build/lesson_cpp_pkg/CMakeFiles/install/strip.dir
